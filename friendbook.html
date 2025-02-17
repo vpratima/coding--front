@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friendbook</title>
+    <link rel="stylesheet" href="facebo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="container">
+    <nav>
+        <div class="nav-left">
+            <div class="logo">
+                <img src="facebook.png" alt="">
+            </div>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type=" text" placeholder="search friendbook">
+            </div>  
+        </div>
+        <div class="nav-center">
+            <i class="fa-solid fa-house"></i>
+            <a href=""> <i class="fa-solid fa-tv"></i></a>
+            <a href=""> <i class="fa-solid fa-store"></i></a>
+            <a href=""><i class="fa-regular fa-user"></i> </a>
+            <a href=""> <i class="fa-solid fa-gamepad"></i></a>
+        </div>
+        <div class="nav-right"> 
+             <i class="fa-solid fa-bars"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+
+            <!--  part-2 : Drop Down Menu Card starts from here... -->
+
+            <img src="profile.jpg" alt="" class=" profile-pic" onclick="openCard()">
+
+            <div class="card-menu-wrap" id="cardWrap">
+                <div class="card-menu">
+                    <div class="profile-menu">
+                        <img src="profile.jpg" alt="">
+                        <p> Wb coding</p>
+                    </div>
+                    <a href="#" class="card-menu-items">
+                    <img src="business.png" alt="">
+                    <p>Meta Business Suite</p>
+                    <span>></span>
+                    </a>
+                    <a href="#" class="card-menu-items">
+                    <img src="setting.png" alt="">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                    </a>
+                    <a href="#" class="card-menu-items">
+                    <img src="help.jpg" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                    </a>
+                    <a href="#" class="card-menu-items">
+                    <img src="need.png" alt="">
+                    <p>Display and Accessibility</p>
+                    <span>></span>
+                    </a>
+                    <a href="#" class="card-menu-items">
+                    <img src="feed.png" alt="">
+                    <p>Give Feedback</p>
+                    
+                    </a>
+                    <a href="#" class="card-menu-items">
+                    <img src="logout.png" alt="">
+                    <p>Logout</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+      <!--  part3: main section. -->
+        <div class="main">
+            <!--  left section starts form here -->
+<div class="main-left">
+    <div class="img">
+        <img src="profile.jpg" alt="">
+        <p> Web Coding</p>
+    </div>
+    <div class="img">
+        <img src="frnd.png" alt="">
+        <p> Friends</p>
+    </div>
+    <div class="img">
+        <img src="news.png" alt="">
+        <p>News</p>
+    </div>
+    <div class="img">
+        <img src="group.png" alt="">
+        <p> Groups</p>
+    </div>
+    <div class="img">
+        <img src="marketplace.png" alt="">
+        <p> Marketplace</p>
+    </div>
+    <div class="img">
+        <img src="bottomarrow.png" alt="">
+        <p> See More</p>
+    </div>
+<hr>
+ <div class="shortcuts">
+    <p>Your shortcuts</p>
+    <a href="#">Edit</a>
+ </div>
+<div class="img">
+    <img src="bubga.png" alt="">
+    <p> Bubble Game</p>
+</div>
+    <div class="img">
+        <img src="cartton.jpg" alt="">
+        <p> Candy Crush Sega</p>
+    </div>
+        <div class="img">
+          <img src="shooter.webp" alt="">
+          <p> Bubble Shooter Pro</p>
+          </div>
+          <div class="img">
+            <img src="linkedin.png" alt="">
+            <p> Linkedin</p>
+        </div>
+        <div class="img">
+            <img src="whatsapp.png" alt="">
+            <p>Whatsapp</p>
+        </div>
+        <div class="img">
+            <img src="newbubble.png" alt="">
+            <p> For Code Certification</p>
+        </div>
+          <div class="img">
+            <img src="group.png" alt="">
+            <p> Meet</p>
+        </div>
+        <div class="img">
+            <img src="box7.jpg" alt="">
+            <p>Gift</p>
+        </div>
+        <div class="img">
+            <img src="business.png" alt="">
+            <p> Help</p>
+        </div>
+        <div class="img">
+            <img src="happyb.png" alt="">
+            <p> Happiness</p>
+        </div>
+        <div class="img">
+            <img src="public.png" alt="">
+            <p>Public </p>
+        </div>
+        <div class="img">
+            <img src="progress.png" alt="">
+            <p> Progess</p>
+        </div>
+        <div class="img">
+            <img src="shubh.jpg" alt="">
+            <p>Job </p>
+        </div>
+        <div class="img">
+            <img src="feed.png" alt="">
+            <p> Feedback</p>
+    </div>    
+        <div class="img">
+          <img src="feed.png" alt="">
+           <p> Web Coding</p>
+        </div>
+    </div>
+
+            <!--  center section starts form here -->
+              <div class="main-center">
+                <div class="top-box">
+                    <div class="my-story">
+                        <img src="ganesh-ji.jpg" alt=""> 
+                        <div class="upload">
+                            <img src="upload-blue.png" alt="">
+                            <p> Add Your Story</p>
+                        </div>
+                    </div>
+
+                    <div class="friends-story">
+                        <img src="lord.jpg" alt="">
+
+                        <div class="friend-profile">
+                            <img src="kailash.jpg" alt="">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="friend-name">
+                            <p> Lord Krishna </p>
+                        </div> 
+                    </div>
+
+                    <div class="friends-story">
+                        <img src="kailash.jpg" alt="">
+
+                        <div class="friend-profile">
+                            <img src="lord.jpg" alt="">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="friend-name">
+                            <p> pooja</p>
+                        </div> 
+                    </div>
+                    <div class="friends-story">
+                        <img src="sinu.jpg" alt="">
+
+                        <div class="friend-profile">
+                            <img src="kailash.jpg" alt="">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="friend-name">
+                            <p> Sinu </p>
+                        </div> 
+                    </div>
+
+                </div>
+              </div>
+            <!--  right section starts form here -->
+
+            <div class="main-right">
+                <div class="sponsored-section">
+                    <H4>sponsored</H4>
+                    <div class="sponsored-link">
+                        <img src="adverti.jpg" alt="">
+                        <p>Online advertisement Service <a href="">onlineservices.com</a></p>
+                    </div>
+                    <div class="sponsored-link">
+                        
+                        <img src="advertisement.jpg" alt="">
+                        <a href="Index1.html" target="_anchor"> Amazon.in</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="page-section">
+                    <h4>Your pages and Profile</h4>
+                    <div class="page-links">
+                        <img src="profile.jpg" alt="">
+                        <p>Web Coding</p>
+                    </div>
+                    <div class="page-links-item"> 
+                        <img src="switch-red.png" alt="">
+                        <p>switch to page</p>
+                    </div>
+                    <div class="page-links-item"> 
+                        <img src="promotion.png" alt="">
+                        <p>Create promotion</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="friend-sectio">
+                    <h4>Friend Request</h4>
+                    <div class="page-links">
+                        <img src="dahlia-dark-red.jpg" alt="">
+                        <p>dahlia-dark</p> 
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="confirm">Confirm</button>
+                        <button type="sumbit" class="delete">Delete</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="contact-section">
+                    <div class="search">
+                        <h4>Contacts</h4>
+                        <img src="search.png" alt="">
+                        <img src="horizon-dots.png" alt="">
+                    </div>
+                    <div class="page-links">
+                        <div class="online"></div>
+                             <img src="lord.jpg" alt="">
+                             <p>Lord Krishna</p>  
+                        </div>
+                        <div class="page-links">
+                            <div class="online"></div>
+                                 <img src="flower1.jpg" alt="">
+                                 <p>shyaam</p>  
+                            </div>
+                        <div class="page-links">
+                            <div class="online"></div>
+                                 <img src="lilac-flower.jpg" alt="">
+                                 <p>Dev Raam</p>  
+                            </div> 
+                            <div class="page-links">
+                                <div class="online"></div>
+                                     <img src="kailash.jpg" alt="">
+                                     <p>Pooja</p>  
+                                </div>
+                            <div class="page-links">
+                                <div class="online"></div>
+                                     <img src="flwrs-blue.jpg" alt="">
+                                     <p>Raam</p>  
+                                </div>
+                            <div class="page-links">
+                                <div class="online"></div>
+                                     <img src="sinu.jpg" alt="">
+                                     <p>Sinu</p>  
+                                </div>   
+                    <div class="page-links">
+                        <div class="online"></div>
+                             <img src="dahlia-pink.jpg" alt="">
+                             <p>Dahlia-pink</p>  
+                        </div>
+                    <div class="page-links">
+                        <div class="online"></div>
+                             <img src="rose-blue.jpg" alt="">
+                             <p>Rossi Re</p>  
+                        </div>
+                    <div class="page-links">
+                        <div class="online"></div>
+                             <img src="dahlia-red.jpg" alt="">
+                             <p>Dolly r</p>  
+                        </div>
+                    
+                    
+                        
+                        
+                </div>
+            </div>
+        </div>
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>
